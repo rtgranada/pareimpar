@@ -1,0 +1,27 @@
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: var(--most-priority);
+    pointer-events: none;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: all 0.3s;
+  }
+
+  .profilepic .loader {
+    background-color: transparent;
+  }
+
+  .profileCard {
+     
+      
+  }
+  .coverProfile{
+    border-radius: 15px;
+  }
